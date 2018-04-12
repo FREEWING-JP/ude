@@ -6,7 +6,7 @@
     <RootNamespace>Ude.Example</RootNamespace>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -51,11 +51,5 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
     <None Include="app.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NetStandard\Ude.NetStandard.csproj">
-      <Project>{68156fee-8fe1-45f5-8267-4d0098a029d0}</Project>
-      <Name>Ude.NetStandard</Name>
-    </ProjectReference>
   </ItemGroup>
 </Project>
