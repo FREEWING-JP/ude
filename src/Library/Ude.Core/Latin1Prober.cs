@@ -173,7 +173,8 @@ namespace Ude.Core
 
         public override string DumpStatus()
         {
-            return $"Latin1Prober: {GetConfidence()} [{GetCharsetName()}]";
+            // return $"Latin1Prober: {GetConfidence()} [{GetCharsetName()}]";
+            return "";
         }
     }
 }

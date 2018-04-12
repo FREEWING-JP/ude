@@ -292,7 +292,8 @@ namespace Ude.Core
 
         public override string DumpStatus()
         {
-            return $"HEB: {finalCharLogicalScore} - {finalCharVisualScore} [Logical-Visual score]";
+            // return $"HEB: {finalCharLogicalScore} - {finalCharVisualScore} [Logical-Visual score]";
+            return "";
         }
         
         public override float GetConfidence()

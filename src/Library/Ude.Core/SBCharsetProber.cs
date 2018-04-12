@@ -125,7 +125,8 @@ namespace Ude.Core
                 
         public override string DumpStatus()
         {
-            return $"SBCS: {GetConfidence()} [{GetCharsetName()}]";
+            // return $"SBCS: {GetConfidence()} [{GetCharsetName()}]";
+            return "";
         }
 
         public override float GetConfidence()

@@ -163,6 +163,7 @@ namespace Ude.Core
         {
             GetConfidence();
 
+/*
             var sb = new StringBuilder();
             for (int i = 0; i < PROBERS_NUM; i++) {
                 if (sb.Length != 0) {
@@ -178,6 +179,8 @@ namespace Ude.Core
             }
 
             return sb.ToString();
+*/
+            return "";
         }
 
     }

@@ -139,6 +139,7 @@ namespace Ude.Core
         {
             var sb = new StringBuilder();
 
+/*
             float cf = GetConfidence();
             sb.AppendLine("SBCS Group Prober --------begin status");
             for (int i = 0; i < PROBERS_NUM; i++) {
@@ -153,6 +154,8 @@ namespace Ude.Core
             sb.Append($"SBCS Group found best match [{bestMatch}] confidence {cf}.");
 
             return sb.ToString();
+*/
+            return "";
         }
 
         public override void Reset ()
